@@ -1,0 +1,81 @@
+body{
+	width: 30%;
+	background-image: url(img/dollarSign.png);
+}
+
+h1{
+	margin-left: 40px;
+	font-family: Arial;
+	line-height: 1;
+	color: #ffffff;
+	position: relative;
+}
+
+.text p{
+	margin-left: 40px;
+	width: 312px;
+	font-family: Arial;
+	font-size: 15px;
+	color: #336699;
+	position: relative;
+}
+
+.buttons{
+	margin-left: 40px;
+	position: relative;
+
+}
+
+.buttons a{
+	width: 30px;
+	height: 30px;
+	background-color: #green;
+	text-decoration: none;
+	text-align: center;
+	font-family: Arial;
+	color: #ffffff;
+	font-family: sans-serif;
+	margin-right: 10px;
+	position: relative;
+}
+
+a:link{
+}
+
+a:visited{
+ 
+}
+a:hover{
+	color: #336699;
+}
+a:active{
+}
+
+#alignBox{
+	margin-left: 40px;
+	margin-top: 70px;
+	position: relative;
+}
+
+#logo {
+	margin-left: 40px;
+	margin-top: 70px;
+	position: relative;
+}
+
+#box{
+	width: 355px;
+	height: 100px;
+	background-color: #336699;
+	border-radius: 5px;
+	margin-left: 40px;
+	margin-top: 70px;
+	position: relative;
+}
+
+button{
+	margin-left: 150px;
+	margin-top: 30px;
+	position: relative;
+}
+
