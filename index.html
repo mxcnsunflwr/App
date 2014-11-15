@@ -1,39 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8"/>
 	<title>Lotto Scanner</title>
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<style type="text/css">
+
 	</style>
-</head>	
+</head>
 <body>
-
-	<nav>
-		<ul>
-		<li><a href="index.html">HOME</a>
-			<ul>
-				<li><a href="startscan.html">SCAN NOW</a></li>
-				<li><a href="results.html">RESULTS</a></li>
-			</ul>
-	</nav>
-		<div class="logo">
-			<img src="img/logoUno.png">
-		</div>
-
-		<script type="text/javascript" src="_js/jquery-1.11.1.min.js"></script>
-		<script type="text/javascript">
-
-		function lotto_over() {
-			$(this).find('ul').show();
-		}
-		$('nav > ul > li').mouseover(lotto_over);
-
-		function lotto_out() {
-			$(this).find('ul').hide();
-		}
-		$('nav > ul > li').mouseout(lotto_out);
-
-		</script>
+	<h1>Lotto Ticket Scanner</h1>
+			<div class="buttons">
+				<a href="startscan.html">SCAN NOW!</a>
+				<a href="results.html">RESULTS</a>
+			</div>
+			
+	<div id="logo">
+		<img src="img/logoUno.png">	
+	</div>
 </body>
 </html>
-
