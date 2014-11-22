@@ -1,59 +1,46 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8"/>
 	<title>Lotto Scanner</title>
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="normal.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
 	<style type="text/css">
-	h1 {
-		width: 300px;
-	}
-
+	
 	</style>
 </head>
 <body>
-	<nav>
-		<ul>
-		<li><a href="startscan.html">SCAN NOW!</a>
-			<ul>
-				<li><a href="results.html">RESULTS</a></li>
-				<li><a href="index.html">HOME</a></li>
-			</ul>
-	</nav>
-
-		<h1>GOOD LUCK!</h1>
-		<h2>Align bar inside square, horizontal or vertical. Holdstill, avoid glares and shadows.</h2>
-		
-		<button>Flash on/off</button>
-
-		<div class="logo">
-			<img src="img/square.png">
+	<h1>Good Luck</h1>
+		<div class="buttons">
+			<a href="index.html">HOME</a>
+			<a href="startscan.html">SCAN NOW!</a>
+			<a href="results.html">RESULTS</a>
 		</div>
 
-		<script type="text/javascript" src="_js/jquery-1.11.1.min.js"></script>
-		<script type="text/javascript">
+	<div class="text">
+	 <p>Align bar inside square, horizontal or vertical. Holdstill, avoid glares and shadows.</p>
+	</div>
 
-		function lotto_over() {
-			$(this).find('ul').show();
-		}
-		$('nav > ul > li').mouseover(lotto_over);
+	<div id="alignBox">
+		<img src="img/square.png">
+	</div>
 
-		function lotto_out() {
-			$(this).find('ul').hide();
-		}
-		$('nav > ul > li').mouseout(lotto_out);
+      <select name="switch" id="switch" data-role="slider">
+        <option value="on">Flash On</option>
+        <option value="off" selected>Flash Off</option>
+      </select>
+  </div>
 
-		/*button ---NOT THE CODE I NEED BUT THIS IS THE IDEA
-		$(document).ready(function(){
-			$("button").click(function(){
-				var NAME = $("NAME");
+<script type="text/javascript" src="_js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript">
+//In order for this function position correctly you had to fix margin-left on div in CSS
+$(document).ready(function(){
+  $(".text").show(function(){
+    $(".text p").animate({left:'250px'});
+  });
+});
 
-			$("span").text(NAME.queue().WHATEVER);
-			});*/
 
-		</script>
-
+</script>
 
 </body>
 </html>

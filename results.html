@@ -1,36 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8" />
 	<title>Lotto Scanner</title>
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="normal.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
 	<style type="text/css">
-
+	
 	</style>
 </head>
 <body>
-	<nav>
-		<ul>
-		<li><a href="results.html">RESULTS</a>
-			<ul>
-				<li><a href="startscan.html">SCAN NOW</a></li>
-				<li><a href="index.html">HOME</a></li>
-			</ul>
-	</nav>
-		<h1>WHAT DID $1 DO FOR YOU?</h1>
-	<script type="text/javascript" src="_js/jquery-1.11.1.min.js"></script>
+	<h1>Lotto Scanning Results</h1>
+
+		<div class="buttons">
+			<a href="index.html">HOME</a>
+			<a href="startscan.html">SCAN NOW!</a>
+			<a href="results.html">RESULTS</a>
+		</div>
+
+	<div id="box">
+		<!-- 
+		DISPLAYS MESSAGE:
+		winner plus how much
+		not winner please try play again 
+		-->
+	</div>
+
+	<script type="text/javascript" src"_js/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript">
 
-		function lotto_over() {
-			$(this).find('ul').show();
-		}
-		$('nav > ul > li').mouseover(lotto_over);
 
-		function lotto_out() {
-			$(this).find('ul').hide();
-		}
-		$('nav > ul > li').mouseout(lotto_out);
+	</script>
 
-		</script>
 </body>
 </html>
