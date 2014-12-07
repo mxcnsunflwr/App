@@ -5,9 +5,9 @@
 	<link rel="stylesheet" type="text/css" href="normal.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<style type="text/css">
-	
 	</style>
 </head>
+<body>
 <body>
 	<h1>Lotto Scanning Results</h1>
 
@@ -18,29 +18,23 @@
 		</div>
 
 	<div id="box">
-		<!-- 
-		DISPLAYS MESSAGE:
-		winner plus how much
-		not winner please try play again 
-		-->
+		<p>YOU WIN!</p>
 	</div>
 
-	<script type="text/javascript" src"_js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="_js/author.js"></script>
+	<script type="text/javascript" src="_js/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript">
 
+	$(function () {
+	    setInterval(function () {
+		    $('#box p').fadeOut(150).delay(120).fadeIn(300).fadeOut(150).delay(120);
+	        $('#box p').fadeOut(300).fadeIn(120).fadeOut(120).delay(120);
+	        $('#box p').fadeOut(150).delay(120).fadeIn(300).fadeOut(150).delay(120);
+	        $('#box p').fadeOut(700).fadeIn(300).fadeOut(160).delay(120);
+	    }, 1);
+    });
 
 	</script>
-		<div class="buttons">
-			<a href="index.html">HOME</a>
-			<a href="startscan.html">SCAN NOW!</a>
-			<a href="results.html">RESULTS</a>
-		</div>
-
-	<div id="box">
-		DISPLAYS MESSAGE:
-		winner plus how much
-		not winner please try play again
-	</div>
 
 </body>
 </html>

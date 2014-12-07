@@ -9,7 +9,6 @@
 	</style>
 </head>
 <body>
-
 	<h1>Good Luck</h1>
 		<div class="buttons">
 			<a href="index.html">HOME</a>
@@ -24,28 +23,21 @@
 	<div id="alignBox">
 		<img src="img/square.png">
 	</div>
-
-      <select name="switch" id="switch" data-role="slider">
+	<select name="button" id="switch" data-role="slider">
         <option value="on">Flash On</option>
-        <option value="off" selected>Flash Off</option>
+        <option value="off" selected="">Flash Off</option>
       </select>
-  </div>
 
-<script type="text/javascript" src="_js/jquery-1.11.1.min.js"></script>
-<script type="text/javascript">
+      <script type="text/javascript" src="_js/jquery-1.11.1.min.js"></script>
+      <script type="text/javascript">
+
 //In order for this function position correctly you had to fix margin-left on div in CSS
-$(document).ready(function(){
-  $(".text").show(function(){
-    $(".text p").animate({left:'250px'});
-  });
-});
+		$(document).ready(function(){
+  		$(".text").show(function(){
+    	$(".text p").animate({left:'250px'});
+  		});
+	});
 
-
-</script>
-
-	<div id="alignBox">
-		<img src="img/square.png">
-	</div>
-	<button>Flash on/off</button>
-</body>
+      </script>
+	</body>
 </html>

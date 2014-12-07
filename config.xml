@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+xmlns:gap = "http://phonegap.com/ns/1.0"
+id = "com.ajsoftware.lynda.samoca"
+versionCode="1"
+version = "1.0">
+<name>Lotto Scanner</name>
+<description>
+Lottery Scanner</description>
+<author href="" email="tena.marcela@yahoo.com">
+Marcela Tena
+</author>
+<preference name="phonegap-version" value="3.6.3" />
+<gap:platform name="ios" />
+<gap:platform name="android" />
+<feature name="http://api.phonegap.com/1.0/camera"/>
+<gap:plugin name="org.apache.cordova.camera" />
+<icon src="res/icon/ios/icon-152.png" gap:platform="ios" width="152" height="152" />
+<icon src="res/icon/android/icon-144-xxhdpi.png" gap:platform="android" gap:density="xxhdpi" />
+
+<gap:splash src="res/screen/ios/screen-iphone-portrait.png" gap:platform="ios" width="320" height="480" />
+<gap:splash src="res/screen/android/screen-xhdpi-portrait.png" gap:platform="android" gap:density="xhdpi" />
+<gap:plugin name="com.phonegap.plugins.barcodescanner" />
+<access origin="*" subdomains="true" />
+</widget>

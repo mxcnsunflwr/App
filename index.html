@@ -4,6 +4,9 @@
 	<title>Lotto Scanner</title>
 	<link rel="stylesheet" type="text/css" href="normal.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="phonegap.js"></script>
+	<script type="text/javascript" src="_js/author.js"></script>
+	<script type="text/javascript" src="_js/jquery-1.11.1.min.js"></script>
 	<style type="text/css">
 	</style>
 </head>
@@ -11,39 +14,49 @@
 	<h1>Lotto Ticket Scanner</h1>
 		<div class="buttons">
 			<a href="index.html">HOME</a>
-			<a href="startscan.html">SCAN NOW!</a>
+			<a href="startscan.html" onclick="takePhoto()" >SCAN NOW!</a>
 			<a href="results.html">RESULTS</a>
 		</div>
 			
 	<div id="logo">
 		<img src="img/logoUno.png">	
 	</div>
+	<img id="ticketImage" src="">
+	
+	<script type="text/javascript">
+	/*$(document).ready(function(){
+	  $("#logo img").ready(function(){
+	    $("img").fadeOut()
+	  });
+	  $("#logo").ready(function(){
+	    $("img").fadeIn();
+	  });
+	});*/
+/*$(document).ready(function(){       
+    $("img").hover(
+        function(){
+            $(this).addClass('over');
+            $(this).animate({
+                width: '100px', 
+                height:'100px'}, 
+                // margin: '-7px'}, 
+                300);
+        },
+        function(){
+            $(this).removeClass('over');
+            $(this).animate({
+                width:'300px',
+                height:'300px'},
+                // margin: '0'},
+                300);}
+    );
+});*/
 
-	<p id="today"></p>
-<script type="text/javascript" src="_js/jquery-1.11.1.min.js"></script>
-<script type="text/javascript">
 
-	document.getElementById("today").innerHTML = Date()
-</script>
 
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<style type="text/css">
+	
 
-	</style>
-</head>
-<body>
-	<h1>Lotto Ticket Scanner</h1>
-			<div class="buttons">
-				<a href="startscan.html">SCAN NOW!</a>
-				<a href="results.html">RESULTS</a>
-			</div>
-			
-	<div id="logo">
-		<img src="img/logoUno.png">	
 
-	<div id="boxText">
-		<h1>LOTTERY SCANNER</h1>
-		<h2>MARCELA TENA</h1>
-	</div>
-</body>
+		</script>
+	</body>
 </html>

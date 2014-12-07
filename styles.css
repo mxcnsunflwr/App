@@ -1,37 +1,39 @@
 body{
-	max-width: 640px;
 	width: 100%;
+	max-width: 640px;
 	background-image: url(img/dollarSign.png);
 	font-family: Helvetica, Arial, sans-serif;
 }
 
 h1{
-	width: 312px;
-	font-size: 33px;
+	width: 300px;
+	font-size: 30px;
 	line-height: 1;
 	color: #ffffff;
 	position: relative;
 	text-align: center;
 	text-transform: uppercase;
 	margin-top: 50px;
-	margin-left: 43px;
+	margin-left: 16px;
 }
 
 .text p{
-	margin-left: -205px;
-	width: 312px;
+	margin-left:-232px;
+	width: 300px;
 	font-size: 15px;
-	text-align: center;
 	color: #336699;
+	text-align: center;
 	position: relative;
+	
 }
 
 .buttons{
 	position: relative;
-	width: 312px;
+	width: 300px;
 	text-align: center;
+	margin-left: 20px;
 	margin-top: 20px;
-	margin-left: 48px;
+	
 }
 
 .buttons a{
@@ -58,126 +60,52 @@ a:active{
 }
 
 #alignBox{
-	margin-left: 48px;
-	margin-top: 70px;
+	width: 300px;
+	margin-left: 17px;
+	margin-top: 20px;
 	position: relative;
-}
-
-#logo {
 }
 
 #logo img {
-	width: 360px;
+	width: 300px;
 	height: auto;
 	margin-top: 40px;
-	margin-left: 20px;
+	margin-left: 17px;
 }
 
 #box{
-	width: 312px;
+	width: 300px;
 	height: 100px;
 	background-color: #336699;
 	border-radius: 5px;
-	margin-left: 43px;
+	margin-left: 17px;
 	margin-top: 70px;
 	position: relative;
+}
+
+#box p{
+	margin-left: 18px;
+	padding-top: 18px;
+	color: #eeffff;
+	font-size: 56px;
 }
 
 #switch{
-	background-color: #336699;
-	color: #ffffff;
-	margin-left: 151px;
-	margin-top: 30px;
-	margin-bottom: 25px;
-	position: relative;
-	width: 30%;
-	background-image: url(img/dollarSign.png);
-}
-
-h1{
-	margin-left: 40px;
-	font-family: Arial;
-	line-height: 1;
-	color: #ffffff;
-	position: relative;
-}
-
-.text p{
-	margin-left: 40px;
-	width: 312px;
-	font-family: Arial;
-	font-size: 15px;
-	color: #336699;
-	position: relative;
-}
-
-.buttons{
-	margin-left: 40px;
-	position: relative;
-
-}
-
-.buttons a{
-	width: 30px;
-	height: 30px;
-	background-color: #green;
-	text-decoration: none;
-	text-align: center;
-	font-family: Arial;
-	color: #ffffff;
-	font-family: sans-serif;
-	margin-right: 10px;
-	position: relative;
-}
-
-a:link{
-}
-
-a:visited{
- 
-}
-a:hover{
-	color: #336699;
-}
-a:active{
-}
-
-#alignBox{
-	margin-left: 40px;
-	margin-top: 70px;
-	position: relative;
-}
-
-#logo {
-	margin-left: 40px;
-	margin-top: 70px;
-	position: relative;
-}
-
-#box{
-	width: 355px;
-	height: 100px;
-	background-color: #336699;
-	border-radius: 5px;
-	margin-left: 40px;
-	margin-top: 70px;
-	position: relative;
-}
-
-button{
-	margin-left: 150px;
-	margin-top: 30px;
+	width: 100px;
+	margin-left: 118px;
+	margin-top: 20px;
 	position: relative;
 }
 
 #today{
-	width: 330px;
-	margin-left: 35px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	border-radius: 3px;
-	background-color: #ffffff;
-	color: #336699;
-	text-align: center;
-	position: relative;
+width: 220px;
+margin-left: 57px;
+padding-top: 5px;
+padding-bottom: 5px;
+border-radius: 3px;
+background-color: #ffffff;
+color: #336699;
+text-align: center;
+position: relative;
 }
+
