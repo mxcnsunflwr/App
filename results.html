@@ -4,6 +4,19 @@
 	<title>Lotto Scanner</title>
 	<link rel="stylesheet" type="text/css" href="normal.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="phonegap.js"></script>
+	<script type="text/javascript" src="_js/author.js"></script>
+	<script type="text/javascript" src="_js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript">
+	$(function () {
+	    setInterval(function () {
+		    $('#box p').fadeOut(150).delay(120).fadeIn(300).fadeOut(150).delay(120);
+	        $('#box p').fadeOut(300).fadeIn(120).fadeOut(120).delay(120);
+	        $('#box p').fadeOut(150).delay(120).fadeIn(300).fadeOut(150).delay(120);
+	        $('#box p').fadeOut(700).fadeIn(300).fadeOut(160).delay(120);
+	    }, 1);
+    });
+    </script>
 	<style type="text/css">
 	</style>
 </head>
@@ -20,21 +33,5 @@
 	<div id="box">
 		<p>YOU WIN!</p>
 	</div>
-
-	<script type="text/javascript" src="_js/author.js"></script>
-	<script type="text/javascript" src="_js/jquery-1.11.1.min.js"></script>
-	<script type="text/javascript">
-
-	$(function () {
-	    setInterval(function () {
-		    $('#box p').fadeOut(150).delay(120).fadeIn(300).fadeOut(150).delay(120);
-	        $('#box p').fadeOut(300).fadeIn(120).fadeOut(120).delay(120);
-	        $('#box p').fadeOut(150).delay(120).fadeIn(300).fadeOut(150).delay(120);
-	        $('#box p').fadeOut(700).fadeIn(300).fadeOut(160).delay(120);
-	    }, 1);
-    });
-
-	</script>
-
 </body>
 </html>
