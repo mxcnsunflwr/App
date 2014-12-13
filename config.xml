@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns = "http://www.w3.org/ns/widgets"
-xmlns:gap = "http://phonegap.com/ns/1.0"
-id = "com.ajsoftware.lynda.samoca"
-versionCode="1"
-version = "1.0">
-<name>Lotto Scanner</name>
-<description>
-Lottery Scanner</description>
+	xmlns:gap = "http://phonegap.com/ns/1.0"
+	id = "com.nowebsite.marcela"
+    versionCode="1"
+    version = "1.0">
+	<name>Lotto Scanner</name>
+	<description>
+	Lottery Scanner</description>
 <author href="" email="tena.marcela@yahoo.com">
 Marcela Tena
 </author>
-<preference name="phonegap-version" value="3.6.3" />
-<preference name="orientation" value="portrait" />
-<gap:platform name="android" />
+	<preference name="phonegap-version" value="3.6.3" />
+	<preference name="orientation" value="portrait" />
+	
+	<gap:platform name="android" />
 
-<icon src="res/android/icon-152.png" gap:platform="android" gap:density="xxhdpi" />
+	<icon src="res/android/icon-152.png" gap:platform="android" gap:density="xxhdpi" />
+	<gap:plugin name="com.phonegap.plugins.barcodescanner" />
 
-<gap:plugin name="org.apache.cordova.splashscreen"  />
-<gap:plugin name="com.phonegap.plugins.barcodescanner" />
-
-<access origin="*" subdomains="true" />
+	<access origin="*" subdomains="true" />
 
 </widget>
 
