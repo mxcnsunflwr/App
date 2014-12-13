@@ -38,9 +38,8 @@ document.addEventListener("deviceready", onDeviceReady, false);
 					"Format: " + result.format + "\n" +
 					"Cancelled: " + result.cancelled);
 				},
-	function (error) {
-		alert("Scanning failed: " + error);
-	}
+			function (error) {
+				alert("Scanning failed: " + error);
+			}
   );
 }
-// ***************************************
