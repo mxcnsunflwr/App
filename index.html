@@ -5,60 +5,23 @@
 	<link rel="stylesheet" type="text/css" href="normal.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<script src="phonegap.js"></script>
-	<script type="text/javascript" src="_js/author.js"></script>
-	<script type="text/javascript" src="_js/jquery-1.11.1.min.js"></script>
 	<style type="text/css">
 	</style>
 </head>
 <body>
 	<h1>Lotto Ticket Scanner</h1>
 		<div class="buttons">
-			<a href="#" onclick="takePhoto()">SCAN TICKET</a>
-			<!-- <a href="index.html">HOME</a> -->
-			<!-- <a href="startscan.html">SCAN NOW!</a> -->
+			<a id="qrScanBtn" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-search">Scan Ticket</a>
 			<a href="results.html">RESULTS</a>
 		</div>
 			
 	<div id="logo">
 		<img src="img/logoUno.png">	
-		<!-- <a href="#" onclick="takePhoto()">SCAN TICKET</a> -->
 	</div>
-	<img id="ticketImage" src="">
 	
-	<script type="text/javascript">
-	/*$(document).ready(function(){
-	  $("#logo img").ready(function(){
-	    $("img").fadeOut()
-	  });
-	  $("#logo").ready(function(){
-	    $("img").fadeIn();
-	  });
-	});*/
-/*$(document).ready(function(){       
-    $("img").hover(
-        function(){
-            $(this).addClass('over');
-            $(this).animate({
-                width: '100px', 
-                height:'100px'}, 
-                // margin: '-7px'}, 
-                300);
-        },
-        function(){
-            $(this).removeClass('over');
-            $(this).animate({
-                width:'300px',
-                height:'300px'},
-                // margin: '0'},
-                300);}
-    );
-});*/
-
-
-
-	
-
-
-		</script>
+	<script src="_js/leaflet.js"></script>
+	<script type="text/javascript" src="_js/author.js"></script>
+	<script type="text/javascript" src="_js/jquery-1.11.1.min.js"></script>
+	<script src="_js/jquery.mobile.min.js"></script>
 	</body>
 </html>
