@@ -2,19 +2,34 @@
 <html>
 <head>
 	<title>Lotto Scanner</title>
+	<link rel="stylesheet" type="text/css" href="normal.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="js/app.js">
+	<link rel="stylesheet" type="text/css" href="js/jquery.js">
+	<script src="phonegap.js"></script>
+	<script type="text/javascript" src="_js/author.js"></script>
+	<script type="text/javascript" src="_js/jquery-1.11.1.min.js"></script>
+	 <script type="text/javascript">
+
+	//In order for this function position correctly you had to fix margin-left on div in CSS
+			$(document).ready(function(){
+	  		$(".text").show(function(){
+	    	$(".text p").animate({left:'250px'});
+	  		});
+		});
+	</script>
 	<style type="text/css">
 	
 	</style>
 </head>
 <body>
-	<h1>GOOD LUCK</h1>
+	<h1>Good Luck</h1>
 		<div class="buttons">
 			<a href="index.html">HOME</a>
-			<a href="startscan.html">SCAN NOW!</a>
+			<!-- <a href="startscan.html">SCAN NOW!</a> -->
 			<a href="results.html">RESULTS</a>
 		</div>
-
+	
 	<div class="text">
 	 <p>Align bar inside square, horizontal or vertical. Holdstill, avoid glares and shadows.</p>
 	</div>
@@ -22,7 +37,9 @@
 	<div id="alignBox">
 		<img src="img/square.png">
 	</div>
-
-	<button>Flash on/off</button>
-</body>
+	<select name="button" id="switch" data-role="slider">
+        <option value="on">Flash On</option>
+        <option value="off" selected="">Flash Off</option>
+      </select>
+	</body>
 </html>
