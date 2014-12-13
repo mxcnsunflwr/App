@@ -11,15 +11,16 @@ Lottery Scanner</description>
 Marcela Tena
 </author>
 <preference name="phonegap-version" value="3.6.3" />
-<gap:platform name="ios" />
+<preference name="orientation" value="portrait" />
 <gap:platform name="android" />
+<gap:plugin name="cordova plugin add org.apache.cordova.file"/>
+<gap:plugin name="com.chanthu.evri.gcs-file-transfer" version="1.0.0" />
 <feature name="http://api.phonegap.com/1.0/camera"/>
 <gap:plugin name="org.apache.cordova.camera" />
-<icon src="res/icon/ios/icon-152.png" gap:platform="ios" width="152" height="152" />
-<icon src="res/icon/android/icon-144-xxhdpi.png" gap:platform="android" gap:density="xxhdpi" />
-
-<gap:splash src="res/screen/ios/screen-iphone-portrait.png" gap:platform="ios" width="320" height="480" />
+<icon src="res/android/icon-152.png" gap:platform="android" gap:density="xxhdpi" />
 <gap:splash src="res/screen/android/screen-xhdpi-portrait.png" gap:platform="android" gap:density="xhdpi" />
 <gap:plugin name="com.phonegap.plugins.barcodescanner" />
 <access origin="*" subdomains="true" />
 </widget>
+
+

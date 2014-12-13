@@ -10,3 +10,12 @@ function onSuccess(imageURI) {
 function onFail(message) {
 	alert('Failed because: ' + message);
 }
+
+// ALERT WINNER***************************
+
+if (x === 'match') {
+	alert('#box p');
+}
+else {
+	alert('Sorry');
+// ****************************************
